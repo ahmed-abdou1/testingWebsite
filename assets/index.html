@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desinic - Get Best UI Design</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/animated.css">
+  <link rel="stylesheet" href="css/templatemo-digimedia-v1-index.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="peak-nav-logo">
+        <!-- <h1 class="logo">Desinic</h1> -->
+        <img src="./images/Peak-Design-Logo-With-Text.svg" class="peak-logo" width="50" height="50" loading="lazy">
+        <!-- <h1 class="peak-logo-text">PEAK</h1> -->
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <img src="/assets/images/Peak-Design-Logo-With-Text.svg" class="peak-logo-mobile" width="190px" height="40" loading="lazy" style="width: fit-content; margin-left: 2px;">
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
+          </li>
+
+          <li class="navbar-item" onclick="addOptions()">
+            <div class="dropdown-services" data-dropdown>
+              <a href="#services" class="navbar-link" id="services-link-navbar" data-dropdown-button>Services <ion-icon name="chevron-down-outline" class="services-down-arrow"></ion-icon></a>
+              <div class="dropdown-menu-services">
+                <ul>
+                  <li class="multi-service-option"><a href="consultations.html" style="color: inherit;">Consultations</a></li>
+                  <li class="multi-service-option"><a href="projects.html" style="color: inherit;">Projects</a></li>
+                  <li class="multi-service-option"><a href="inspections.html" style="color: inherit;">Inspections</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <div class="hidden-item" id="hidden-nav-item">
+            <li class="navbar-item">
+              <a href="consultations.html" class="navbar-link" data-navbar-link>Consultations</a>
+            </li>
+  
+            <li class="navbar-item">
+              <a href="projects.html" class="navbar-link" data-navbar-link>Projects</a>
+            </li>
+  
+            <li class="navbar-item">
+              <a href="inspections.html" class="navbar-link" data-navbar-link>Inspections</a>
+            </li>
+          </div>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-navbar-link>Our Team</a>
+          </li>
+<!-- 
+          <li class="navbar-item">
+            <a href="projects.html" class="navbar-link" data-navbar-link>Projects</a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="faq.html" class="navbar-link" data-navbar-link>FAQ</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="btn" data-popup-target="#popup-GAQ">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+        <span>Get A Quote</span>
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <div>
+              <p class="subtitle-element">We Are A Drafting and Consulting Firm From Ontario</p>
+              <div class="hidden-message-div">
+                <p class="message-peak-design">Peak Design.</p>
+              </div>
+              <div class="cursor"></div>
+            </div>
+
+            <h2 class="h2 hero-title">We Design Homes That Users Love</h2>
+
+            <p class="hero-text">
+              With an ongoing commitment to design excellence, research and dedication to our client's visions, we continue to develop a complete, holistic and sustainable approach to building.​
+            </p>
+
+            <button class="btn">Learn More</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="about-container">
+          <div class="container">
+
+            <figure class="about-banner">
+              <img src="images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+                class="w-100 banner-animation">
+            </figure>
+
+            <div class="about-content">
+              
+              <h2 class="h2 section-title underline">Why Our Agency</h2>
+
+              <p class="about-text">
+                In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
+                volutpat metus
+                lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
+                hendrerit ut a odio.
+              </p>
+
+              <p class="about-text">
+                Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
+                vehicula condimentum
+                arcu.
+              </p>
+
+              <ul class="stats-list">
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">9875</p>
+
+                  <p class="stats-text">Satisfied Clients</p>
+                </li>
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">7894</p>
+
+                  <p class="stats-text">Project Lunched</p>
+                </li>
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">65</p>
+
+                  <p class="stats-text">Years Completed</p>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+
+        <div class="speciallization-container">
+
+          <div class="container">
+
+            <h2 class="h2 section-title underline">Our Speciallization</h2>
+
+            <ul class="service-list">
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="telescope-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Strategy & Research</h3>
+
+                  <p class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                    suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+
+                  <a href="consultations.html">
+                    <button class="card-btn" aria-label="Show More">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Web Development</h3>
+
+                  <p class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                    suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+
+                  <a href="projects.html">
+                    <button class="card-btn" aria-label="Show More">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Web Solution</h3>
+
+                  <p class="text">
+                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
+                    suscipit, enim ex
+                    venenatis ipsum, et porttitor.
+                  </p>
+
+                  <a href="inspections.html">
+                    <button class="card-btn" aria-label="Show More">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section blog" id="blog">
+        <div class="container">
+          <h2 class="h2 section-title underline">Our Team</h2>
+          <div id="center-team-profiles">
+            <section id="experts">
+              <p class="center-paragraph">Replenish man have thing gathering lights yielding shall you </p>
+              <div class="expert-box">
+                <div class="profile">
+                  <img class="team-profile" src="images/ahmed.png" alt="Picture of Ahmed">
+                  <h4 class="profile-title">Ahmed Abdou</h4>
+                  <h3>Python & Algorithm Expert</h3>
+                </div>
+                <div class="profile">
+                  <img class="team-profile" src="images/abdoul.png" alt="Picture of Abdoul">
+                  <h4 class="profile-title">Abdoul Hamid SK</h4>
+                  <h3>Python & Algorithm Expert</h3>
+                </div>
+                <div class="profile">
+                  <img class="team-profile" src="images/issa.png" alt="Picture of Issa">
+                  <h4 class="profile-title">Issa Ali</h4>
+                  <h3>Python & Algorithm Expert</h3>
+                </div>
+              </div>
+            </section>
+          </div>
+
+
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+<section id="reviews">
+  <div class="swiper-container swiper">
+    <h2 class="h2 section-title underline">Check Out What People Say About Us</h2>
+    <div class="slide-container">
+      <div class="card-wrapper swiper-wrapper">
+        <div class="slider-card swiper-slide">
+          <div class="profile-details">
+            <div class="profile-picture">
+              <div class="profile-border">
+                <img src="images/profile1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="name-job">
+              <h3 class="name">Richard Bond</h3>
+              <h4 class="job">Data Analyst</h4>
+              <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet, sed voluptas laborum nam a vel voluptatum quas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card swiper-slide">
+          <div class="profile-details">
+            <div class="profile-picture">
+              <div class="profile-border">
+                <img src="images/profile2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="name-job">
+              <h3 class="name">Richard Bond</h3>
+              <h4 class="job">Data Analyst</h4>
+              <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet, sed voluptas laborum nam a vel voluptatum quas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card swiper-slide">
+          <!-- <div class="image-box">
+            <img src="images/showImg/dataAna.jpg" alt="" />
+          </div> -->
+          <div class="profile-details">
+            <div class="profile-picture">
+              <div class="profile-border">
+                <img src="images/profile3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="name-job">
+              <h3 class="name">Richard Bond</h3>
+              <h4 class="job">Data Analyst</h4>
+              <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet, sed voluptas laborum nam a vel voluptatum quas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card swiper-slide">
+          <div class="profile-details">
+            <div class="profile-picture">
+              <div class="profile-border">
+                <img src="images/profile4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="name-job">
+              <h3 class="name">Richard Bond</h3>
+              <h4 class="job">Data Analyst</h4>
+              <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet, sed voluptas laborum nam a vel voluptatum quas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card swiper-slide">
+          <div class="profile-details">
+            <div class="profile-picture">
+              <div class="profile-border">
+                <img src="images/profile5.jpg" alt="" />
+              </div>
+            </div>
+            <div class="name-job">
+              <h3 class="name">Richard Bond</h3>
+              <h4 class="job">Data Analyst</h4>
+              <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro amet, sed voluptas laborum nam a vel voluptatum quas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+<div>
+  <!-- <button data-popup-target="#popup">Open popup</button> -->
+  <div class="popup" id="popup-GAQ">
+    <div class="popup-header">
+      <!-- <div class="title">Example popup GAQ</div> -->
+      <div class="float-right">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+    </div>
+    <div class="popup-body">
+      <div class="popup-GAQ-container">
+        <div class="popup-GAQ-information">
+          <h1 class="get-in-touch-GAQ">Contact Information</h1>
+          <p class="get-in-touch-paragraph">We're open for any suggestion or just to have a chat</p>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Address: Ottawa-Gatineau Metropolitan Area</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Phone: (613)-400-1183</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Email: Ahmedfasla@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-sharp fa-solid fa-globe"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Website: www.peakdesign.com</p>
+            </div>
+          </div>
+          <h2 class="find-us-here">Find Us Here:</h2>
+          <br>
+          <div class="social-media-GAQ">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+        <div class="popup-GAQ-form">
+          <h1>Recieve A Free Quote Now</h1>
+          <form action="javascript:void(0);">
+            <!-- <label for="name-gaq">Your Name: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="name-gaq" id="name-gaq" placeholder="Name" required>
+            <!-- <label for="email-gaq">Email: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="email-gaq" id="email-gaq" placeholder="Email" required>
+            <!-- <label for="phone-gaq">Phone Number: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="phone-gaq" id="phone-gaq" placeholder="Phone Number" required>
+            <!-- <label for="text-gaq">How may we help you?</label> -->
+            <textarea name="text-gaq" id="text-gaq" placeholder="Message"></textarea>
+            <input type="submit" value="Submit" id="submit-gaq" onclick="send_call()">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="popup-overlay"></div>
+</div>
+
+<div>
+  <!-- <button data-popup-target="#popup">Open popup</button> -->
+    <div class="popup-body">
+      <div class="popup-GAQ-container padding-right-left">
+        <div class="center-container">
+          <div class="logo-with-goal">
+            <a href="#" class="peak-nav-logo">
+              <!-- <h1 class="logo">Desinic</h1> -->
+              <img src="images/Peak-Design-Logo-With-Text.svg" class="peak-logo" width="50" height="50" loading="lazy">
+              <!-- <h1 class="peak-logo-text">PEAK</h1> -->
+            </a>
+            <p class="center">Our goal is to help you navigate the complex dynamics of the construction process. From A to Z. Every step of the way.</p>
+          </div>
+        </div>
+        <div class="popup-GAQ-information">
+          <h1 class="get-in-touch-GAQ">Contact Information</h1>
+          <p class="get-in-touch-paragraph">We're open for any suggestion or just to have a chat</p>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Address: Ottawa-Gatineau Metropolitan Area</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Phone: (613)-400-1183</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Email: Ahmedfasla@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-icon-flex">
+            <div class="contact-icon-GAQ">
+              <i class="fa-sharp fa-solid fa-globe"></i>
+            </div>
+            <div class="contact-icon-paragraph">
+              <p>Website: www.peakdesign.com</p>
+            </div>
+          </div>
+          <h2 class="find-us-here">Find Us Here:</h2>
+          <br>
+          <div class="social-media-GAQ">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link" id="social-link-GAQ">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+        <div class="popup-GAQ-form border-radius-all-around">
+          <h1>Recieve A Free Quote Now</h1>
+          <form action="javascript:void(0);">
+            <!-- <label for="name-gaq">Your Name: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="name-gaq" id="name-gaq" placeholder="Name" required>
+            <!-- <label for="email-gaq">Email: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="email-gaq" id="email-gaq" placeholder="Email" required>
+            <!-- <label for="phone-gaq">Phone Number: (Required)<span class="required-symbol">*</span></label> -->
+            <input type="text" name="phone-gaq" id="phone-gaq" placeholder="Phone Number" required>
+            <!-- <label for="text-gaq">How may we help you?</label> -->
+            <textarea name="text-gaq" id="text-gaq" placeholder="Message"></textarea>
+            <input type="submit" value="Submit" id="submit-gaq" onclick="send_call()">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Desinic</a>
+
+          <p class="text">
+            Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut
+            feugiat eget,
+            cursus eget felis.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Team</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+2484214313" class="footer-item-link">+248-421-4313</a>
+              <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@desinic.com" class="footer-item-link">info@desinic.com</a>
+              <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              Pontiac, Michigan, United States of America
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        Website Built by Ahmed Abdou
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/owl-carousel.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+       emailjs.init("R9lxXYwv7ucUGXZf8");
+    })();
+ </script>
+  <script src="js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
